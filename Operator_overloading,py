@@ -1,0 +1,19 @@
+class Point:
+    def __init__(self, x, y):   # Constructor to initialize the point
+        self.x = x                # Initialize x coordinate
+        self.y = y               # Initialize y coordinate
+
+    def __add__(self, p):   # Overloading the + operator
+        return Point(self.x + p.x, self.y + p.y)    # Return a new Point object with summed coordinates
+
+    def print_point(self):   # Method to print the point's coordinates
+        print(f"X is {self.x} & Y is {self.y}")
+
+        def __add__(self, p):         # Overloading the + operator
+            return Point(self.x + p.x, self.y + p.y)
+
+p1 = Point(1, 2)          # Create first Point object
+p2 = Point(3, 4)       # Create two Point objects
+
+p = p1 + p2           # Use overloaded + operator to add the two points
+p.print_point()          # Print the resulting point's coordinates
