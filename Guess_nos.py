@@ -1,5 +1,5 @@
 # Q. Let’s create a Number Guessing Game.
-# Given  a secretnumber (already decided by you), write a program that asks the user to guess the number and prints:
+# Given  a secret number (already decided by you), write a program that asks the user to guess the number and prints:
 
 # If the guess is above the secret number → "Too high"
 # If the guess is below the secret number → "Too low"
@@ -20,3 +20,4 @@ else:
 
 
 print(guess_number)
+
