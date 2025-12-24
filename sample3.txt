@@ -1,0 +1,4 @@
+Old texts which is already 
+exists in file.
+New text being appended
+ to the file
