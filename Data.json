@@ -1,0 +1,10 @@
+{
+    "name" : "Sarvesh",
+    "IsStudent" : true,
+    "address": {
+        "city" : "Mumbai",
+        "Country" : "India"
+    },
+    "subjects" : ["python", "AI/ML"]
+}
+
