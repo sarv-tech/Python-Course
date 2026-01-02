@@ -12,4 +12,8 @@ except ValueError:
     print(f"Invalid input")
 
 else:
+
     print(f"ans = {ans}")
+
+finally:
+    print("End of program")
