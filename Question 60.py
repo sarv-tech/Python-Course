@@ -14,7 +14,8 @@ for num in tup:
         odd_list.append(num)
 
 even_tup = tuple(even_list)
-odd_tup = tuple(odd_list)
+odd_tup = tuple(odd_list)    # list can be converted into tuple because it is mutable
 
-print("Even tuple is: ", even_tup)
+print("Even tuple is: ", even_tup)  
+
 print("odd tuple is: ", odd_tup)
